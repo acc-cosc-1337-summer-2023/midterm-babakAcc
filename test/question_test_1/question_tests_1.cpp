@@ -10,3 +10,16 @@ TEST_CASE("test")
 {
 	REQUIRE(test_config() == true);
 }
+
+TEST_CASE("Testing factorial sequence")
+{
+	int test1 = 3;
+	int test2 = 4;
+	int test3 = 5;
+	int test4 = 6;
+	REQUIRE(get_factorial_sequence(test1) == 6);
+	REQUIRE(get_factorial_sequence(test2) == 24);
+	REQUIRE(get_factorial_sequence(test3) == 120);
+	REQUIRE(get_factorial_sequence(test4) == 720);
+	
+}
