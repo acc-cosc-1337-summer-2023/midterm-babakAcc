@@ -16,7 +16,7 @@ int main()
 
         double commission = get_sales(sales);
 
-        cout<<"The commission of "<<sales<<" is: "<<commission<<"\n";
+        cout<<"Sales of "<<sales<<" yields a commission of "<<commission<<"\n";
 
         cout<<"Do you want to calculate another commission?(y/n): ";
         cin>>choice;
